@@ -9,7 +9,6 @@ const multer = require('multer');
 
 // Use CORS middleware with configuration
 app.use(cors({
-  origin: 'http://zashtech.my.id',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
   credentials: true, // Allow credentials (like cookies) if needed
 }));
